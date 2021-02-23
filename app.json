@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Pamphlet",
+    "slug": "Pamphlet",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios"
+    ],
+    "version": "2.1.1",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "primaryColor": "#0047ab",
+    "icon": "./assets/images/icon.png",
+    "locales": {
+      "en": "./langs/en.json",
+      "zh-Hans": "./langs/zh-Hans.json",
+      "zh-Hant": "./langs/zh-Hant.json"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/images/icon.png",
+      "supportsTablet": true,
+      "requireFullScreen": false,
+      "bundleIdentifier": "tech.cuso4.donelet",
+      "buildNumber": "2.1.1"
+    },
+    "notification": {
+      "icon": "./assets/images/icon-noti.png",
+      "color": "#0047ab",
+      "androidMode": "default"
+    }
+  }
+}
